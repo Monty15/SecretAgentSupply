@@ -1,7 +1,6 @@
 .company {
   background-color: black;
   color: white;
-
 }
 
 .div {
@@ -14,6 +13,10 @@
   padding: 12px 0;
 }
 
+.company img {
+  height: 1.5em;
+  padding-right: 15px;
+}
 .container img {
   opacity: 100%;
 }
@@ -30,4 +33,13 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 25em;
+}
+
+.headline {
+    background-color: black;
+    color: white;
+    width: 20em;
+    padding: 2em 3em;
+    position: relative;
+    top: 9em;
 }
