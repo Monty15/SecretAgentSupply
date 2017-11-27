@@ -1,0 +1,25 @@
+.company {
+  background-color: black
+  color: white;
+}
+
+.div {
+  display: block;
+}
+
+.company .container {
+  display: flex;
+  align-items: center;
+  padding: 12px 0
+}
+
+.container img {
+  opacity: 100%
+}
+
+.main-banner {
+  background-image: url("./resources/moto.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
