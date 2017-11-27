@@ -1,6 +1,7 @@
 .company {
   background-color: black;
   color: white;
+
 }
 
 
@@ -22,6 +23,7 @@
 
 img {
   border-style: none;
+  display: block;
 }
 .container {
   max-width: 960px;
@@ -35,6 +37,9 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   height: 25em;
+  width: auto;
+  opacity: 100%;
+
 }
 
 .headline {
@@ -53,11 +58,17 @@ img {
 .menu {
   background-color: firebrick;
   color: white;
+  margin-top: 34em;
+
+
 }
-nav {
-  position: relative;
-  align-content: space-between;
+nav li {
+  align-items: center;
+  justify-content: space-around;
   flex-direction: row;
+  display: list-item;
+  display: inline-flex;
+  padding: 30px;
 
 }
 
