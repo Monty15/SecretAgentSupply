@@ -29,7 +29,7 @@ img {
 }
 
 .main-banner {
-  background-image: url("./resources/moto.jpeg");
+  background-image: url("../resources/moto.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
