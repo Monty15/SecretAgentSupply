@@ -44,3 +44,12 @@ img {
     position: relative;
     top: 9em;
 }
+
+nav {
+  background-color: firebrick;
+  color: white;
+}
+
+li {
+  display: list-item;
+}
