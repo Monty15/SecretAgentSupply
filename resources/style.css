@@ -3,6 +3,7 @@
   color: white;
 }
 
+
 .div {
   display: block;
 }
@@ -45,9 +46,19 @@ img {
     top: 9em;
 }
 
-nav {
+.menu nav {
+  display: flex;
+  padding: 12px 0;
+}
+.menu {
   background-color: firebrick;
   color: white;
+}
+nav {
+  position: relative;
+  align-content: space-between;
+  flex-direction: row;
+
 }
 
 li {
