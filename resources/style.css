@@ -1,6 +1,6 @@
 
 html {
-  font-size: 18px
+  font-size: 18px;
 }
 
 body {
@@ -28,7 +28,7 @@ body {
   font-size: 1rem;
 }
 
-.logo {
+img #logo {
   height: 1.5rem;
   padding-right: 1.0rem;
   padding-left: 0.5rem;
@@ -38,6 +38,7 @@ body {
 img {
   border-style: none;
   display: block;
+
 }
 .container {
   max-width: 960px;
@@ -45,7 +46,7 @@ img {
 }
 }
 
-.main-banner {
+.main-banner #moto {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
   background-position: center;
   background-repeat: no-repeat;
@@ -63,7 +64,7 @@ img {
     padding: 2rem 3rem;
     position: relative;
     top: 9rem;
-    
+
 }
 
 .menu nav {
