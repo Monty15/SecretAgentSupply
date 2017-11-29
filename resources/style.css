@@ -209,7 +209,8 @@ footer {
   .business-info {margin: 0.5rem 0 4rem 0;
      flex-wrap: wrap;
      display: flex;
-   justify-content: center;}
+     justify-content: center;
+ }
   #Glasses {display:none;}
   #watch {display: none;}
   footer {text-align: center;}
