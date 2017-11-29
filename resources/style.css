@@ -207,7 +207,8 @@ footer {
   .icon { width: 90%;}
   .info { width: 90%;}
   .business-info {margin: 0.5rem 0 4rem 0;
-     flex-wrap: wrap;}
+     flex-wrap: wrap;
+   justify-content: center;}
   #Glasses {display:none;}
   #watch {display: none;}
   footer {text-align: center;}
