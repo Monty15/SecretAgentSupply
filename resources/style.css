@@ -183,3 +183,58 @@ footer {
     padding: 5rem 0;
 
 }
+
+@media only screen and (min-width: 1024px)
+{
+  .mobile-nav {display: none;}
+  .full-nav {display: block;}
+}
+
+
+@media only screen and (max-width: 1024px)
+{
+  .icon { width: 47%;}
+  .info { width: 35%;}
+  .full-nav { display: none;}
+  .mobile-nav {display: block;}
+  #Glasses {display: none;}
+}
+
+@media only screen and (max-width: 470px)
+{
+  .full-nav { display: none;}
+  .mobile-nav {display: block;}
+  .icon { width: 90%;}
+  .info { width: 90%;}
+  .business-info {margin: 0.5rem 0 4rem 0;
+     flex-wrap: wrap;}
+  #Glasses {display:none;}
+  #watch {display: none;}
+  footer {text-align: center;}
+  #moto {
+    height: 15rem;
+    width: auto;
+    opacity: 100%;
+    font-weight: bold;
+    font-family: Helvetica;}
+  h1 {
+    font-size: 1rem;
+    padding-top: 0.25rem;
+  }
+
+  h4 {
+    font-size: 0.77rem;
+  }
+
+  .headline {
+      background-color: black;
+      color: white;
+      width: 20rem;
+      padding: 1rem 2rem;
+      position: relative;
+      top: 10rem;
+
+  }
+
+
+}
