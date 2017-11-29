@@ -205,10 +205,10 @@ footer {
   .full-nav { display: none;}
   .mobile-nav {display: block;}
   .icon { width: 90%;}
-  .info { width: 90%;
-  justify-content: center;}
+  .info { width: 90%;}
   .business-info {margin: 0.5rem 0 4rem 0;
      flex-wrap: wrap;
+     display: flex;
    justify-content: center;}
   #Glasses {display:none;}
   #watch {display: none;}
