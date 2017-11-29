@@ -205,7 +205,8 @@ footer {
   .full-nav { display: none;}
   .mobile-nav {display: block;}
   .icon { width: 90%;}
-  .info { width: 90%;}
+  .info { width: 90%;
+  justify-content: center;}
   .business-info {margin: 0.5rem 0 4rem 0;
      flex-wrap: wrap;
    justify-content: center;}
