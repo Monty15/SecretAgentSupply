@@ -4,8 +4,9 @@ html {
 }
 
 body {
-  width: 960px;
+  width: auto;
   font-family: Helvetica;
+
 
 }
 
@@ -22,13 +23,18 @@ body {
 
 .company .container {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   padding-top: 0.66rem;
   padding-bottom: 0.66rem;
   font-size: 1rem;
 }
 
-img #logo {
+.container #logo {
+    display: inline-flex;
+}
+
+#logo {
   height: 1.5rem;
   padding-right: 1.0rem;
   padding-left: 0.5rem;
@@ -36,15 +42,23 @@ img #logo {
 }
 
 img {
-  border-style: none;
+
   display: block;
 
+}
+
+span #logo {
+  display: inline-block;
 }
 .container {
   max-width: 960px;
   margin: 0 auto;
-}
 
+}
+span {
+  font-size: 1rem;
+  font-family: Helvetica;
+}
 
 #moto {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
@@ -54,7 +68,18 @@ img {
   height: 25rem;
   width: auto;
   opacity: 100%;
+  font-weight: bold;
+  font-family: Helvetica;
 
+}
+
+h1 {
+  font-size: 2rem;
+  padding-top: 0.25rem;
+}
+
+h4 {
+  font-size: 1rem;
 }
 
 .headline {
@@ -74,7 +99,6 @@ img {
 .menu {
   background-color: firebrick;
   color: white;
-  margin-top: 34em;
 
 
 }
@@ -84,10 +108,11 @@ nav li {
   flex-direction: row;
   display: list-item;
   display: inline-flex;
-  padding: 30px;
+  padding: 0.75rem 35px;
 
 }
 
 li {
   display: list-item;
+
 }
